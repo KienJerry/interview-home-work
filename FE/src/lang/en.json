@@ -1,0 +1,13 @@
+{
+  "common.label.search": "Search",
+  "common.label.save": "Save",
+  "common.label.cancel": "Cancel",
+
+  "page.label.users.code": "Employee code",
+  "page.label.users.name": "Employee name",
+  "page.label.users.email": "Email",
+  "page.label.users.phoneNumber": "Phone number",
+  "page.label.users.status": "Status",
+  "page.label.users.addedTimesTamp": "Created date",
+  "page.label.users.changedTimesTamp": "Updated date"
+}

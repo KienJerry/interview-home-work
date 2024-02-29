@@ -1,0 +1,48 @@
+@import "../common";
+html {
+  font-style: normal;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 1rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ant-list-item {
+  border-block-end: 0px !important;
+}

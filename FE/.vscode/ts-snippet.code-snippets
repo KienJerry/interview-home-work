@@ -1,0 +1,24 @@
+{
+  "Create a React component width TypeScript": {
+    "prefix": "tsf",
+    "body": [
+      "import type { ReactNode } from 'react';",
+      "",
+      "type ${1:${TM_FILENAME_BASE}}Props = {",
+      "\tprop: string;",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = (props : ${1:${TM_FILENAME_BASE}}Props ) => {",
+      "",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t</div>",
+      "\t);",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Create a React functional component using TypeScript and SCSS modules"
+  }
+}
